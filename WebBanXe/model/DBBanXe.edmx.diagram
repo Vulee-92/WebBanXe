@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ed1f62c14cec417696b9fe85e75deedd" Name="Diagram1">
+        <EntityTypeShape EntityType="DBBanXeModel.BLOG" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.BRAND" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.CATEGORY_BLOG" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.CLASS" Width="1.5" PointX="7.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.CONTACT" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.DISCOUNT" Width="1.5" PointX="6" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.IMAGE_CONTENT" Width="1.5" PointX="10" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.IMG_BLOG" Width="1.5" PointX="7.5" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.IMG_PRODUCT" Width="1.5" PointX="5.25" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.ORDER" Width="1.5" PointX="8.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.ORDER_DETAIL" Width="1.5" PointX="10.5" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.PRODUCT" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.RENT" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.TYPECAR" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.USER" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBBanXeModel.USER_ROLE" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="DBBanXeModel.FK__BLOG__IdCate__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBanXeModel.FK__BLOG__IdUser__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBanXeModel.FK__IMG_BLOG__IdBlog__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBanXeModel.FK__PRODUCT__IdBrand__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBanXeModel.FK__IMAGE_CON__IdCla__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBanXeModel.FK__CONTACT__IdUser__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBanXeModel.FK__ORDER__IdDiscoun__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBanXeModel.FK__IMG_PRODU__IdPro__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBanXeModel.FK__ORDER__IdUser__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBanXeModel.FK__ORDER_DET__IdOrd__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBanXeModel.FK__ORDER_DET__IdPro__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBanXeModel.FK__PRODUCT__IdType__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBanXeModel.FK__RENT__IdProduct__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBanXeModel.FK__RENT__IdUser__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="DBBanXeModel.FK__USER__IdRole__44FF419A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
